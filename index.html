@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>João Rodrigues – CV</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #fff; color: #000; font: 15px/1.4 Helvetica, Arial, sans-serif; }
+  .bar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 10px 16px; border-bottom: 1px solid #000; }
+  .bar a { color: #000; }
+  .links { display: flex; gap: 16px; }
+  .frame { position: absolute; top: 44px; bottom: 0; left: 0; right: 0; }
+  object { width: 100%; height: 100%; }
+  .fallback { padding: 24px 16px; }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <strong>João Rodrigues – CV</strong>
+    <span class="links">
+      <a href="https://github.com/JoaoRodrigues67912">GitHub</a>
+      <a href="CV.pdf" download>Download PDF</a>
+    </span>
+  </div>
+  <div class="frame">
+    <object data="CV.pdf" type="application/pdf">
+      <p class="fallback">O teu browser não consegue mostrar o PDF aqui. <a href="CV.pdf">Abrir o PDF</a>.</p>
+    </object>
+  </div>
+</body>
+</html>
